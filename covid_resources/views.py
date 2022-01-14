@@ -43,7 +43,7 @@ class Homepage_View(View):
 
 	
 			
-		# return JsonResponse(data_csv, safe=False)
+		
 	
 	def get(self, request):
 		return render(request,'index.html')
