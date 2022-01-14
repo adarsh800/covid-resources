@@ -92,4 +92,4 @@ class Homepage_View(View):
 
 		
 		
-		return render(request,'index.html',{'leads_result':leads,})
+		return render(request,'index.html',{'leads_result':leads,'indian_states': state_data,'category_state': category_data})
