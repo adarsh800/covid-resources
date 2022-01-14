@@ -1,0 +1,23 @@
+{
+    "OXYC":"Oxygen Concentrator",
+    "OXY":"Oxygen Cylinder",
+    "OXYR":"Oxygen Refill",
+    "RTPCR":"Home RTPCR",
+    "AMB":"Ambulance",
+    "BED":"Hospital Beds",
+    "DOCT":"Doctor Consultation",
+    "FOOD":"Food Service",
+    "MED":"Medicine",
+    "COVHELP":"Covid Helpline",
+    "HOME":"Home ICU",
+    "OXYCAN":"Oxygen Cans",
+    "OXYFLOW":"Oxygen Flow Meter/kit",
+    "HOMEICUEQ":"Home ICU & Equipments",
+    "TEST":"Test Centers",
+    "DELIV":"Delivery Services",
+    "DOC":"Doctors",
+    "COVICON":"COVID Control Room",
+    "HOSP":"Hospitals",
+    "ISOCEN":"Isolation Center",
+    "OTHSER":"Other Services"
+}
