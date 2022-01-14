@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-heroku = "*"
+decorator = "*"
+views = "*"
+excel2json-3 = "*"
+lambda = "*"
+asyncio = "*"
+channels = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-dotenv = "*"
+gunicorn = "*"
+dj-database-url = "*"
+python-decouple = "==3.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
