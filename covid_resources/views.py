@@ -66,9 +66,7 @@ class Homepage_View(View):
 		
 		return render(request,'index.html',{'indian_states': state_data,'category_state': category_data})
 
-		# import pdb
-		# pdb.set_trace() 
-
+		
 	def post(self, request):
 		sno=0
 		state = request.POST['state']
@@ -79,10 +77,12 @@ class Homepage_View(View):
 
 		with open(JSON_FILE_URL,'r') as read_json_leads:
 			sno=0
+			leads=[]
 			jSno=[]
 			json_leads = json.load(read_json_leads)
 			comp_leads = json_leads["data"]
 			leads_len = len(json_leads["data"])
+			leads.clear()
 			for comp_int in range(leads_len):
 				if comp_leads[comp_int]["State"] == state and comp_leads[comp_int]["Supply"] == category:
 					leads_gen=comp_leads[comp_int]
