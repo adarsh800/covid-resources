@@ -1,1 +1,1 @@
-web: gunicorn expenseweb.wsgi
+web: gunicorn covid_resources.wsgi
