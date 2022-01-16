@@ -109,6 +109,6 @@ STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-if DEBUG == True:
+if DEBUG == False:
     import django_heroku
     django_heroku.settings(locals())
