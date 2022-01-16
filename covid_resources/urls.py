@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', csrf_exempt(Homepage_View.as_view()), name='index'),
     path('api/', views.excl, name='api'),
+    path('.well-known/pki-validation/', views.ssl, name='ssl'),
 ]
