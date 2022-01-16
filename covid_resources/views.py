@@ -16,7 +16,8 @@ JSON_FILE_URL = os.path.join(settings.BASE_DIR,'leads.json')
 leads=[]
 
 
-
+def ssl(request):
+	return render(request,'1C330E9E8A0E6A9BB9A2E33E150C0183.txt')
 
 @login_required(login_url='/admin')
 def excl(request):
